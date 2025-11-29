@@ -1,0 +1,123 @@
+.app {
+  text-align: center;
+  padding: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.app {
+  height: 100vh;            /* Full screen height */
+  display: flex;
+  justify-content: center;  /* Center horizontally */
+  align-items: center;      /* Center vertically */
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #0c0b0b;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+}
+
+
+.app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  /* Background settings */
+  background-image: url('https://images.pexels.com/photos/14161885/pexels-photo-14161885.png?cs=srgb&dl=pexels-senthil-manikandan-1962908-14161885.jpg&fm=jpg');
+  background-size: cover;        /* fill entire page */
+  background-position: center;   /* center the image */
+  background-repeat: no-repeat;  /* no repeat */
+  background-attachment: fixed;  /* fixed during scroll */
+}
+.content {
+  text-align: center;
+}
+
+.welcome-text {
+  font-size: 40px;
+  font-weight: bold;       /* Bold text */
+  color: #000000;          /* White for visibility (change if needed) */
+  margin-top: 10px;
+  letter-spacing: 0.5px;
+}
+.button-group {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.button-group button {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #9db7d9; /* Slight transparent white */
+  backdrop-filter: blur(5px);
+  transition: 0.3s;
+}
+
+.button-group button:hover {
+  background-color: #ffffff;
+  transform: scale(1.05);
+}
+/* App.css additions for destination wiring */
+.dest-page .content { /* if you reuse content class elsewhere, fine to keep */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.button-group button {
+  /* keep existing styles from earlier, no change needed */
+}
+
+/* Make sure page scroll shows card grid nicely */
+.states-grid { margin-top: 8px; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://images.pexels.com/photos/14161885/pexels-photo-14161885.png?cs=srgb&dl=pexels-senthil-manikandan-1962908-14161885.jpg&fm=jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;  /* THIS keeps BG fixed */
+}
+.state-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.content {
+  text-align: center;
+}
+
+/* Title background box */
+.title-box {
+  background: rgba(1, 1, 1, 0.149);
+  padding: 20px 35px;
+  border-radius: 15px;
+  backdrop-filter: blur(6px);
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+/* Buttons centered */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+

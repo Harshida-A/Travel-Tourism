@@ -1,0 +1,136 @@
+/* src/components/Destination.css */
+
+.dest-page {
+  padding: 34px;
+  min-height: 100vh;
+  color: #fff;
+  background: rgba(0,0,0,0.45); /* subtle translucent background to sit on top of your background image */
+  backdrop-filter: blur(2px);
+}
+
+.dest-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dest-header h2 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.back-btn {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  background: #ffffffcc;
+  color: #111;
+}
+
+.states-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 18px;
+  align-items: stretch;
+}
+
+.state-card {
+  background: rgba(255,255,255,0.12);
+  border-radius: 10px;
+  padding: 16px;
+  min-height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+
+.state-card h3 {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.state-card p {
+  margin: 0;
+  color: #060606;
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+.state-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.35);
+}
+.destination-container {
+  height: 100vh;              /* full screen height */
+  overflow-y: scroll;         /* scroll inside only */
+  padding: 20px;
+  
+}
+.card {
+  width: 280px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  margin: 20px auto;
+}
+
+/* Image inside cards */
+.card img {
+  width: 100%;
+  height: 160px;     /* reduce size */
+  object-fit: cover; /* crop nicely */
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+.state-img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.card {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Bouncy hover effect */
+.card:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+.back-btn {
+  padding: 8px 18px;
+  background: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.back-btn:hover {
+  background: #ddd;
+}
+
+
+
+

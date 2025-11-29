@@ -1,0 +1,113 @@
+/* Container */
+.hotels-container {
+  padding: 20px;
+  color: white;
+}
+
+.hotel-search-bar {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 20px;
+  position: relative;
+}
+
+.hotel-search-bar input {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.suggestions-box {
+  position: absolute;
+  width: 100%;
+  background: #fff;
+  color: #000;
+  border-radius: 6px;
+  margin-top: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  max-height: 260px;
+  overflow-y: auto;
+  z-index: 10;
+}
+
+.suggestion-item {
+  padding: 10px;
+  display: flex;
+  gap: 12px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+
+.suggestion-item:hover {
+  background: #f7f7f7;
+}
+
+.suggestion-item img {
+  width: 45px;
+  height: 45px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.state-suggestion {
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+
+/* Heading */
+.hotel-title {
+  text-align: center;
+  margin: 25px 0;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+/* State heading */
+.state-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 20px 0 30px;
+  justify-content: center;  /* ⭐ Centers the buttons */
+}
+
+.state-buttons button {
+  padding: 10px 18px;
+  background: #ffffff;
+  border: none;
+  border-radius: 6px;
+  color: #000000;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.state-buttons button:hover {
+  background: #007bff;
+  transform: scale(1.05);
+}
+
+
+/* Hotel Cards */
+.hotel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  color: black;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.hotel-img {
+  width: 100%;
+  height: 160px;
+  border-radius: 8px;
+  object-fit: cover;
+}

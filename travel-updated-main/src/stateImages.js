@@ -1,0 +1,32 @@
+const stateImages = {
+  "Andhra Pradesh": "https://www.captureatrip.com/_next/image?url=https%3A%2F%2Fd1zvcmhypeawxj.cloudfront.net%2Flocation%2FAndhra%20Pradesh%2Fblogs%2Ftirupati-balaji-temple-d486b6408b-wyjbev-webp-2897b688b3-1752061463884.webp&w=3840&q=50",
+  "Arunachal Pradesh": "https://www.remotelands.com/storage/media/5113/conversions/b130305009-banner-size.jpg",
+  "Assam": "https://www.kajaawa.com/wp-content/uploads/2022/06/dawki-river-5-kaga-768x473.jpg",
+  "Bihar": "https://lh3.googleusercontent.com/5Kucsn_29r6ryyhjXSHpA9fjkjOsu7QdRLvuSpTxlY4OAqviI_MCFHB3ESqJpSjwlK3SXRPp4b71n8_k-3UYv467P8nht1hGXbm6oAy-=h450-rw",
+  "Chhattisgarh": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL1k4Sxl7hqShRyaXvL3DvWSv2Mk6QfGK3NyXM7ERq9QzbN9PhqpfY1wFJQFcIZyWl29A&usqp=CAU",
+  "Goa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ5KspwgkBx6iEVSfqPFhayvgYNUUfVpR1XA&s",
+  "Gujarat": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHbl0e6dMP5leb-rEM48pNclEoLiu4A77xGmrg4eJZNZ-jVkzphIMThLPAQoQ5jiGYCxk&usqp=CAU",
+  "Haryana": "https://cdnbbsr.s3waas.gov.in/s37b7a53e239400a13bd6be6c91c4f6c4e/uploads/bfi_thumb/2020051468-qnwxl6jbsbuz2v7936cj4ye71mm0x5bnf1mzbqlwha.jpg",
+  "Himachal Pradesh": "https://www.peakadventuretour.com/assets/imgs/himachal-tourism-09.webp",
+  "Jharkhand": "https://media2.thrillophilia.com/images/photos/000/178/559/original/1573563244_man.jpg?width=975&height=600",
+  "Karnataka": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_zI5yggaOeyRuveD0brZFYzKdG5hJAdGlRw&s",
+  "Kerala": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfyFdbefzaiehfVnQUOtIXnkOyPb7fDrb0okTw3dcDh3JaD-Cbz5nYo2bi-VHb97fiLZM&usqp=CAU",
+  "Madhya Pradesh":"https://gandhisagarforestretreat.com/wp-content/uploads/2024/06/BLOG-head-title-1-1.webp",
+  "Maharashtra": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTncE46V6bHphG0D5JqNHbWS1finzibVK-K_A&s",
+  "Manipur": "https://manipurtourism.gov.in/wp-content/uploads/2020/08/MM.jpg",
+  "Meghalaya": "https://travenjo.com/wp-content/uploads/2022/06/Seven-Sisters-Falls-1-gaimg.jpg?x58748",
+  "Mizoram": "https://media-cdn.tripadvisor.com/media/photo-c/1280x250/11/d4/d5/99/from-the-top-of-reiek.jpg",
+  "Nagaland": "https://www.tourmyindia.com/blog//wp-content/uploads/2020/12/Mon-Nagaland.jpg",
+  "Odisha": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzGjOKYX-S5_xEHQYKNPvAamfVXlu-Lrwc1QZb3tTminWgJBmubmsxQ4ZTObP4Oaq9-8&usqp=CAU",
+  "Punjab": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcKcypoAZU_GvMBXsooNM3GwgPgw4WT9c6gQ&s",
+  "Rajasthan": "https://indiaholidaymall.com/images/blog/Top-10-Tourism-Places-of-Rajasthan.jpg",
+  "Sikkim": "https://media.assettype.com/outlooktraveller%2F2024-01%2F76703c86-6e3a-44d6-9e44-1cfa5a081b0a%2Fshutterstock_2289207027.jpg?w=480&auto=format%2Ccompress&fit=max",
+  "Tamil Nadu": "https://droptaxiinoneway.com/gleensic/2024/02/Peruvudaiyar-Kovil-1024x683.jpg",
+  "Telangana": "https://media1.thrillophilia.com/filestore/myx0ziz9cm4ynnru0bhwacb66w86_shutterstock_1911230902.jpg",
+  "Tripura": "https://bombaytrooper.com/cdn/shop/articles/14083817901_17d6c285f6_o.jpg?v=1752669170&width=2048",
+  "Uttar Pradesh": "https://oneday.travel/wp-content/uploads/wootrips-1-day-delhi-to-agra-tajamahal-sightseeing-trip-private-car-header.jpg",
+  "Uttarakhand": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeWq08wUig9tskCj4HzR7wU-fwZaWAJlnaiKt2hfFrRleYkoUnOCd0k2_-sJgPApQ2CYg&usqp=CAU",
+  "West Bengal": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuGMJJdomFdFEcqfsPkrbD4VGIFnkixUByTg&s"
+};
+
+export default stateImages;

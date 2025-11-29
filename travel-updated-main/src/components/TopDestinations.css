@@ -1,0 +1,43 @@
+.top-dest {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.dest-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* SAME SIZE */
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.dest-card {
+  width: 280px;                         /* SAME WIDTH */
+  background: rgba(255, 255, 255, 0.9);  /* same soft white */
+  padding: 20px;                         /* SAME PADDING */
+  border-radius: 12px;                   /* SAME CURVE */
+  text-align: center;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 0 auto;                        /* centers cards */
+  
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dest-card:hover {
+  transform: translateY(-10px) scale(1.03);   /* SAME ANIMATION */
+  box-shadow: 0 15px 25px rgba(0,0,0,0.25);
+}
+
+.dest-card img {
+  width: 100%;
+  height: 160px;                        /* SAME IMAGE HEIGHT */
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.dest-name {
+  font-weight: 600;
+  padding: 10px 0;
+}
