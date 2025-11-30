@@ -39,3 +39,13 @@
   color: white;
   font-weight: 600;
 }
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Adds 15px space between children (username and button) */
+}
+
+.nav-username {
+    font-weight: 500; /* Optional: Add style for the username text */
+    color: #333;
+}

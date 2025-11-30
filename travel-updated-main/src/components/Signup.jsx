@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./signup.css";
+import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 function Signup() {
@@ -15,14 +16,16 @@ function Signup() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Later this will call Spring Boot API
-    // axios.post("http://localhost:8080/api/auth/signup", formData)
-
-    alert("Signup Successful! (Temporary alert until backend is ready)");
-    navigate("/login");
+    try {
+      await axios.post("http://localhost:8080/api/auth/signup", formData);
+      alert("Signup Successful!");
+      navigate("/login");
+    } catch (error) {
+      alert("Signup Failed! Email may already exist.");
+    }
   };
 
   return (

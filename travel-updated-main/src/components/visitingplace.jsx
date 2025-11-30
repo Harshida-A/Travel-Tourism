@@ -96,16 +96,16 @@ const visitingPlaces = {
     { name: "Pinjore Gardens", img: "https://i.pinimg.com/1200x/39/88/70/398870ca41902f68de97446c63612a31.jpg", desc: "Historic Mughal-style terraced garden." },
 { name: "Morni Hills", img: "https://i.pinimg.com/1200x/d7/88/0d/d7880d31db204251fa573df878c6f4f3.jpg", desc: "Only hill station of Haryana." },
 { name: "Badkhal Lake", img: "https://i.pinimg.com/1200x/48/b8/c0/48b8c038fb2ac1f3fc18a580afc8b616.jpg", desc: "Scenic lake surrounded by Aravalli hills." },
-{ name: "Kingdom of Dreams, Gurugram", img: "URL_HERE", desc: "Entertainment and cultural destination." },
-{ name: "Tilyar Lake", img: "URL_HERE", desc: "Popular picnic spot with boating." },
-{ name: "Brahma Sarovar", img: "URL_HERE", desc: "Sacred water tank in Kurukshetra." },
-{ name: "Damdama Lake", img: "URL_HERE", desc: "Adventure activities and scenic views." },
-{ name: "Star Monument", img: "URL_HERE", desc: "Unique star-shaped architectural structure." }
+{ name: "Kingdom of Dreams, Gurugram", img: "https://i.pinimg.com/736x/6a/fc/1d/6afc1da7246dc3edb42dd7880780d9fb.jpg", desc: "Entertainment and cultural destination." },
+{ name: "Tilyar Lake", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROecEjzwoWod3jbvD1GU5r-Wc78KAftXyQiw&s", desc: "Popular picnic spot with boating." },
+{ name: "Brahma Sarovar", img: "https://i.pinimg.com/1200x/5e/38/ff/5e38ff442f05e068ca8e299d59a2636c.jpg", desc: "Sacred water tank in Kurukshetra." },
+{ name: "Damdama Lake", img: "https://i.pinimg.com/736x/5d/c4/b8/5dc4b864fa1a026560a2b631748c8fa6.jpg", desc: "Adventure activities and scenic views." },
+{ name: "Star Monument", img: "https://i.pinimg.com/736x/e8/48/47/e84847d5f2543343909e3256f7294c6c.jpg", desc: "Unique star-shaped architectural structure." }
 
   ],
   "Himachal Pradesh": [
-    { name: "Manali", img: "URL_HERE", desc: "Popular hill station." },
-    { name: "Shimla", img: "URL_HERE", desc: "Famous colonial town." },
+    { name: "Manali", img: "https://i.pinimg.com/736x/8c/14/3e/8c143e84594eafe45e5db7ce2ce503a3.jpg", desc: "Popular hill station." },
+    { name: "Shimla", img: "https://i.pinimg.com/736x/b5/19/f6/b519f640fed0bcd63c4da98640bd320d.jpg", desc: "Famous colonial town." },
     { name: "Dharamshala", img: "URL_HERE", desc: "Home of the Dalai Lama with scenic beauty." },
 { name: "McLeod Ganj", img: "URL_HERE", desc: "Known for monasteries and Tibetan culture." },
 { name: "Kasol", img: "URL_HERE", desc: "Popular with trekkers and backpackers." },
