@@ -22,7 +22,7 @@ function Navbar() {
 
       </div>
       <div className="nav-right">
-        <button className="login-btn">Login / Signup</button>
+        <button className="login-btn"><a onClick={() => navigate("/Login")}>Login / Signup</a></button>
       </div>
     </header>
   );
